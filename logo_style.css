@@ -1,0 +1,26 @@
+body{
+    background-color: darkgreen;
+}
+
+#nav_logo{
+    height: 60px;
+    width: 110px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition-duration: 0.05s;
+}
+
+#nav_logo:hover{
+    border: 2px solid white;
+}
+
+#logo{
+    height: 40px;
+    width: 80px;
+    /* background-image: url("amazon_logo.png"); */
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+}
